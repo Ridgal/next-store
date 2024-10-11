@@ -14,6 +14,10 @@ const config: Config = {
       md: { max: "768px" },
       sm: { max: "540px" },
     },
+    container: {
+      padding: "8rem",
+      center: true,
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

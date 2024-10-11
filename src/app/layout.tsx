@@ -20,8 +20,8 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang="en">
       <body className={font.className}>
-        <div className="absolute top-[-25%] left-[20%] -z-10 w-[18rem] h-[39rem] rotate-[66deg] bg-indigo-400 blur-[120px]" />
-        <div className="absolute top-[20%] left-[60%] -z-10 w-[18rem] h-[39rem] rotate-[66deg] bg-indigo-400 blur-[120px]" />
+        {/* <div className="absolute top-[-25%] left-[20%] -z-10 w-[18rem] h-[39rem] rotate-[66deg] bg-indigo-400 blur-[120px]" />
+        <div className="absolute top-[20%] left-[60%] -z-10 w-[18rem] h-[39rem] rotate-[66deg] bg-indigo-400 blur-[120px]" /> */}
         <Header />
         {children}
       </body>

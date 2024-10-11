@@ -1,11 +1,5 @@
-import { Hero } from "@/components/hero/Hero";
-
-function Home() {
-  return (
-    <main className="px-32 text-white z-10 mt-24">
-      <Hero />
-    </main>
-  );
-}
+const Home = () => {
+  return <main className="container h-screen">design</main>;
+};
 
 export default Home;

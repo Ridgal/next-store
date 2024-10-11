@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #dae2ff;
+  background-image: url("../../public/image.webp");
+  /* background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp); */
 }
